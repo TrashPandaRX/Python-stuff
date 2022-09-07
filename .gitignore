@@ -1,0 +1,12 @@
+#stuff to ignore
+#be sure to update us regularly!
+.env
+*.html
+Saving\ your\ work\ from\ the\ python\ console_files/
+google\ challenges/
+django/
+GUI\ work/
+rockyou.txt
+genetic_alg1.py
+building\ ml\ in\ python/
+.DS_Store

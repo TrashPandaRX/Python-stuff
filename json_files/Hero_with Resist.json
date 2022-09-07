@@ -1,0 +1,38 @@
+{
+  "id": "7c0997c2-1da9-42c6-861d-52515b89ee3d",
+  "name": "Hero with Resist",
+  "affiliation": "Player",
+  "portraitIMG": "https://cdn.vox-cdn.com/thumbor/bwPmhN-OCBXqIQQs9feOa88zh1I=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/11676283/robocop_1987.jpg",
+  "maxHealth": 100,
+  "currentHealth": 100,
+  "resistances": [
+    {
+      "name": "Metal Armor",
+      "max": 20,
+      "current": 20,
+      "percentBlocked": 95,
+      "regeneration": 0,
+      "typesAffected": [
+        "Physical"
+      ]
+    }
+  ],
+  "attacks": [
+    {
+      "id": "6bd0dfb9-07fe-4cb9-ad58-0bc82ba5ba5b",
+      "name": "attack1",
+      "cooldown": 3,
+      "effects": {
+        "amount": 40,
+        "tags": [
+          "Physical",
+          "Punch",
+          "Bludgeon"
+        ]
+      },
+      "tags": [
+        "Basic"
+      ]
+    }
+  ]
+}
